@@ -1,0 +1,23 @@
+{
+  "name": "themes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start src/index.js blocks/banner",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesAlves/ilios_wp_themes.git"
+  },
+  "private": true,
+  "dependencies": {
+    "@wordpress/blocks": "*",
+    "@wordpress/scripts": "*"
+  },
+  "devDependencies": {
+    "@wordpress/components": "^27.0.0",
+    "@wordpress/i18n": "^4.52.0"
+  }
+}

@@ -1,0 +1,27 @@
+@import "variables";
+
+.menu{
+  height: 102px;
+  background: $brand-gray-5;
+  color: white;
+
+
+  &-items{
+      list-style: none;
+      display: flex;
+
+    & > li {
+      padding: 8px 16px;
+      height: 48px;
+      border: solid 1px transparent;
+
+      &.active {
+        color: $brand-yellow-1;
+        border-left-color: $brand-yellow-1;
+        border-right-color: $brand-yellow-1;
+      }
+
+    }
+  }
+
+}

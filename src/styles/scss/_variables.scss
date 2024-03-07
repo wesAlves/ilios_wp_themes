@@ -1,13 +1,25 @@
 $primary: #F1C97A;
+$brand-gray-5: #333;
+$brand-gray-1: #f5f5f5;
+
+$brand-yellow-5: #A87A4A;
+$brand-yellow-4: #BB8E56;
+$brand-yellow-3: #C99F61;
+$brand-yellow-2: #E1B970;
+$brand-yellow-1: #F1C97A;
+
+
 
 // Create your own map
 $custom-colors: (
-        "brand-gray": #333,
-        "brand-yello-5": #A87A4A,
-        "brand-yello-4": #BB8E56,
-        "brand-yello-3": #C99F61,
-        "brand-yello-2": #E1B970,
-        "brand-yello-1": #F1C97A,
+        "brand-gray-5": $brand-gray-5,
+        "brand-gray-1": $brand-gray-1,
+
+        "brand-yellow-5": $brand-yellow-5,
+        "brand-yellow-4": $brand-yellow-4,
+        "brand-yellow-3": $brand-yellow-3,
+        "brand-yellow-2": $brand-yellow-2,
+        "brand-yellow-1": $brand-yellow-1,
 );
 
 $theme-colors: (

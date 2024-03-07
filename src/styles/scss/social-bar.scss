@@ -1,0 +1,16 @@
+@import "variables";
+
+
+.social-bar {
+
+  background: $brand-gray-1;
+  height: 48px;
+
+  &-header {
+    border-top: solid 3px $brand-gray-5;
+  }
+
+  &-footer {
+
+  }
+}

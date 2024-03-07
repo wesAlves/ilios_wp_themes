@@ -5,7 +5,7 @@ module.exports = {
     entry: './src/js/index.js',
     output: {
         filename: "main.js",
-        path: path.resolve(__dirname, "build"),
+        path: path.resolve(__dirname, "wp-content/themes/ilios_2024_2/build"),
     },
     module: {
         rules: [
@@ -19,12 +19,15 @@ module.exports = {
                         options: {
                             sassOptions: {
                                 indentWidth: 4,
-                                // includePaths: ["absolute/path/a", "absolute/path/b"],
                             },
                         },
                     },
                 ],
             },
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
+            }
         ],
     },
 }

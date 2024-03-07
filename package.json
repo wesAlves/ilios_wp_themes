@@ -21,6 +21,6 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "hero-slider": "^3.2.1"
+    "@splidejs/splide": "^4.1.4"
   }
 }

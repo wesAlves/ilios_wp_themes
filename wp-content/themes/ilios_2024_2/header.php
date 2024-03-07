@@ -6,13 +6,16 @@
 
 <body>
 
-<div class="container">
 
-<div class="social-top--gray">
+<div class="">
     <div class="container d-flex--btw-center">
         <div>Rossana Advocacia e consultoria - OAB 323232/SC</div>
         <div>in | inst | wha | X</div>
     </div>
+</div>
+
+<div class="p-3 bg-brand-yello-5">
+    Example element with utilities
 </div>
 
 <div class="menu">
@@ -39,4 +42,3 @@
         </ul>
     </div>
 </section>
-</div>

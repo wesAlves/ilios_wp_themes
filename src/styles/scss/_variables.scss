@@ -1,0 +1,21 @@
+$primary: #F1C97A;
+
+// Create your own map
+$custom-colors: (
+        "brand-gray": #333,
+        "brand-yello-5": #A87A4A,
+        "brand-yello-4": #BB8E56,
+        "brand-yello-3": #C99F61,
+        "brand-yello-2": #E1B970,
+        "brand-yello-1": #F1C97A,
+);
+
+$theme-colors: (
+        "primary": $primary,
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+@import "bootstrap";

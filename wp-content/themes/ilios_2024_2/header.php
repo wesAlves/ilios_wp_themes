@@ -6,6 +6,8 @@
 
 <body>
 
+<div class="container">
+
 <div class="social-top--gray">
     <div class="container d-flex--btw-center">
         <div>Rossana Advocacia e consultoria - OAB 323232/SC</div>
@@ -37,3 +39,4 @@
         </ul>
     </div>
 </section>
+</div>

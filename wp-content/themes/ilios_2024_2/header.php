@@ -45,7 +45,7 @@
                 </div>
             </li>
 
-            <li class="splide__slide temp -slide-2">
+            <li class="splide__slide temp slide-2">
                 <div class="container h-100 d-flex align-items-center">
                     <div class="col-4 offset-8">
                         <p> HTML element represents a paragraph. Paragraphs are usually represented in visual media as

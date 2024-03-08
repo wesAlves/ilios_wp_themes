@@ -3,12 +3,14 @@
 @import "menu";
 @import "hero-slides";
 
+@import "home";
 
-html{
+
+html {
   //font-size: 24px;
 }
 
-body{
+body {
   background: #333 !important;
 }
 
@@ -16,9 +18,23 @@ footer {
   position: relative;
 }
 
-.developer-bar{
+.developer-bar {
   height: 48px;
   color: #9E9E9E;
   background: #E4E4E4;
+}
 
+h {
+  &2 {
+    width: fit-content;
+    font-size: 2em;
+
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 16px;
+    margin-bottom: 48px;
+
+    border-bottom: solid 2px;
+    border-image: linear-gradient(to left, $brand-yellow-5, $brand-yellow-1, $brand-yellow-5) 20;
+  }
 }

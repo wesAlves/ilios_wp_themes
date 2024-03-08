@@ -51,7 +51,7 @@ get_header();
 <main class="h-100">
     <section class="bg-brand-gray-1 py-5">
         <div class="container">
-            <h2>Sobre o escritório</h2>
+            <h2 class="text-center mx-auto">Sobre o escritório</h2>
 
             <div class="row mt-5">
                 <div class="col-6">
@@ -91,36 +91,62 @@ get_header();
         </div>
     </section>
 
-    <section class="py-5">
+    <section class="py-5 text-white">
         <div class="container">
-            <h2>Áreas de atuação</h2>
+            <h2 class="text-center m-auto">Áreas de atuação</h2>
 
-            <div class="row mt-5">
+            <div class="my-5">
                 <div class="p-0 m-0 d-flex flex-wrap list-unstyled">
-                    <div class="w-25">
-                        <img src="" alt="">
-                        <h3>Direito trabalhista para empresas</h3>
+                    <div class="col-4 d-flex flex-column align-items-center mt-5">
+                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
+                            <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
+                        </div>
+                        <h3 class="mt-3 text-center w-75">Direito trabalhista <br/><span
+                                    class="small">para empresas</span>
+                        </h3>
                     </div>
-                    <div class="w-25">
-                        <img src="" alt="">
-                        <h3>Direito odontológico para dentistas</h3>
+
+                    <div class="col-4 d-flex flex-column align-items-center mt-5">
+                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
+                            <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
+                        </div>
+                        <h3 class="mt-3 text-center w-75">Direito trabalhista <br/><span
+                                    class="small">para empresas</span>
+                        </h3>
                     </div>
-                    <div class="w-25">
-                        <img src="" alt="">
-                        <h3>Direito Esteticista para profissionais</h3>
+                    <div class="col-4 d-flex flex-column align-items-center mt-5">
+                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
+                            <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
+                        </div>
+                        <h3 class="mt-3 text-center w-75">Direito trabalhista <br/><span
+                                    class="small">para empresas</span>
+                        </h3>
                     </div>
-                    <div class="w-25">
-                        <img src="" alt="">
-                        <h3>Direito laboratorial</h3>
+                    <div class="col-4 d-flex flex-column align-items-center mt-5">
+                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
+                            <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
+                        </div>
+                        <h3 class="mt-3 text-center w-75">Direito trabalhista <br/><span
+                                    class="small">para empresas</span>
+                        </h3>
                     </div>
-                    <div class="w-25">
-                        <img src="" alt="">
-                        <h3>Direito médico para médicos</h3>
+                    <div class="col-4 d-flex flex-column align-items-center mt-5">
+                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
+                            <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
+                        </div>
+                        <h3 class="mt-3 text-center w-75">Direito trabalhista <br/><span
+                                    class="small">para empresas</span>
+                        </h3>
                     </div>
-                    <div class="w-25">
-                        <img src="" alt="">
-                        <h3>Atuação em tribunais direito geral</h3>
+                    <div class="col-4 d-flex flex-column align-items-center mt-5">
+                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
+                            <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
+                        </div>
+                        <h3 class="mt-3 text-center w-75">Direito trabalhista <br/><span
+                                    class="small">para empresas</span>
+                        </h3>
                     </div>
+
                 </div>
             </div>
 
@@ -136,7 +162,7 @@ get_header();
                 </div>
 
                 <div class="col-8 p-5">
-                    <h2>Quem é Dr. Rossana Mansur Colier</h2>
+                    <h2 class="text-center mx-auto">Quem é Dr. Rossana Mansur Colier</h2>
 
                     <p>Bacharel em direito pela Pontifícia Universidade Católica de Minas Gerais(PUC-MG) em 1993.</p>
 
@@ -157,7 +183,7 @@ get_header();
 
     <section class="py-5 text-white">
         <div class="container">
-            <h2>Contatos e localização</h2>
+            <h2 class="text-center mx-auto">Contatos e localização</h2>
 
             <div class="row">
                 <div class="col-4">
@@ -212,7 +238,7 @@ get_header();
 
     <section class="py-5 text-white">
         <div class="container">
-            <h2>Confira nosso blog</h2>
+            <h2 class="text-center mx-auto">Confira nosso blog</h2>
 
             <div class="d-flex mt-5 gap-3">
                 <div class="col-4 bg-brand-gray-1">card 1</div>

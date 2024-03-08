@@ -102,7 +102,7 @@ get_header();
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
                         <h3 class="mt-3 text-center w-75">Direito Trabalhista <br/><span
-                                class="small text-white-50">para empresas</span>
+                                    class="small text-white-50">para empresas</span>
                         </h3>
                     </div>
 
@@ -111,7 +111,7 @@ get_header();
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
                         <h3 class="mt-3 text-center w-75">Direito Odontológico <br/><span
-                                class="small text-white-50">para dentistas</span>
+                                    class="small text-white-50">para dentistas</span>
                         </h3>
                     </div>
                     <div class="col-4 d-flex flex-column align-items-center mt-5">
@@ -119,7 +119,7 @@ get_header();
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
                         <h3 class="mt-3 text-center w-75">Direito Esteticista <br/><span
-                                class="small text-white-50">para profissionais</span>
+                                    class="small text-white-50">para profissionais</span>
                         </h3>
                     </div>
                     <div class="col-4 d-flex flex-column align-items-center mt-5">
@@ -141,7 +141,7 @@ get_header();
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
                         <h3 class="mt-3 text-center w-75">Atuação em tribunais<br/><span
-                                class="small text-white-50">Direito geral</span>
+                                    class="small text-white-50">Direito geral</span>
                         </h3>
                     </div>
 
@@ -239,9 +239,27 @@ get_header();
             <h2 class="text-center mx-auto">Confira nosso blog</h2>
 
             <div class="d-flex mt-5 gap-3">
-                <div class="col-4 bg-brand-gray-1">card 1</div>
-                <div class="col-4 bg-brand-gray-1">card 2</div>
-                <div class="col-4 bg-brand-gray-1">card 3</div>
+
+                <?php
+
+                $posts = get_posts(array(
+                        "numberposts" => 3
+                ));
+                $counter = 0;
+
+                while ($counter < count($posts)) {
+                    the_post();
+                    ?>
+
+                    <div class="col-4 bg-brand-gray-1 text-brand-gray-5">
+                        <?php the_title(); ?>
+                    </div>
+
+                    <?php
+                    $counter++;
+                }
+                ?>
+
             </div>
 
         </div>

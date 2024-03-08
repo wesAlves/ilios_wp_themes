@@ -2,7 +2,7 @@
     <div class="menu-bar-footer">
         <div class="container d-flex justify-content-between align-items-center h-100">
             <div>
-                <img src="wp-content/themes/ilios_2024_2/build/assets/logos/logo_pb.png">
+                <img src="<?php echo get_theme_file_uri("/build/assets/logos/logo_pb.png") ?>">
             </div>
 
             <div>in | inst | wha | X</div>

@@ -101,8 +101,8 @@ get_header();
                         <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
-                        <h3 class="mt-3 text-center w-75">Direito trabalhista <br/><span
-                                    class="small">para empresas</span>
+                        <h3 class="mt-3 text-center w-75">Direito Trabalhista <br/><span
+                                    class="small text-white-50">para empresas</span>
                         </h3>
                     </div>
 
@@ -110,40 +110,38 @@ get_header();
                         <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
-                        <h3 class="mt-3 text-center w-75">Direito trabalhista <br/><span
-                                    class="small">para empresas</span>
+                        <h3 class="mt-3 text-center w-75">Direito Odontológico <br/><span
+                                    class="small text-white-50">para dentistas</span>
                         </h3>
                     </div>
                     <div class="col-4 d-flex flex-column align-items-center mt-5">
                         <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
-                        <h3 class="mt-3 text-center w-75">Direito trabalhista <br/><span
-                                    class="small">para empresas</span>
+                        <h3 class="mt-3 text-center w-75">Direito Esteticista <br/><span
+                                    class="small text-white-50">para profissionais</span>
                         </h3>
                     </div>
                     <div class="col-4 d-flex flex-column align-items-center mt-5">
                         <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
-                        <h3 class="mt-3 text-center w-75">Direito trabalhista <br/><span
-                                    class="small">para empresas</span>
+                        <h3 class="mt-3 text-center w-75">Direito laboratorial</h3>
+                    </div>
+                    <div class="col-4 d-flex flex-column align-items-center mt-5">
+                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
+                            <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
+                        </div>
+                        <h3 class="mt-3 text-center w-75">Direito Médico<br/>
+                            <span class="small text-white-50">para médicos</span>
                         </h3>
                     </div>
                     <div class="col-4 d-flex flex-column align-items-center mt-5">
                         <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
-                        <h3 class="mt-3 text-center w-75">Direito trabalhista <br/><span
-                                    class="small">para empresas</span>
-                        </h3>
-                    </div>
-                    <div class="col-4 d-flex flex-column align-items-center mt-5">
-                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
-                            <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
-                        </div>
-                        <h3 class="mt-3 text-center w-75">Direito trabalhista <br/><span
-                                    class="small">para empresas</span>
+                        <h3 class="mt-3 text-center w-75">Atuação em tribunais<br/><span
+                                    class="small text-white-50">Direito geral</span>
                         </h3>
                     </div>
 

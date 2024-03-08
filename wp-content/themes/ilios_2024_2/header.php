@@ -17,7 +17,7 @@
     <div class="menu-bar">
         <div class="container d-flex justify-content-between align-items-center h-100 overflow-hidden">
             <div class="logo">
-                <img src="wp-content/themes/ilios_2024_2/build/assets/logos/logo_color.png">
+                <img src="<?php echo get_theme_file_uri("/build/assets/logos/logo_color.png") ?>">
             </div>
 
 <!--            <nav>-->

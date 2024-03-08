@@ -16,7 +16,9 @@
 
 <div class="menu">
     <div class="container d-flex justify-content-between align-items-center h-100 overflow-hidden">
-        <div class="logo">logo</div>
+        <div class="logo">
+            <img src="wp-content/themes/ilios_2024_2/build/assets/logos/logo_color.png">
+        </div>
         <nav>
             <ul class="menu-items">
                 <li class="active">Home</li>

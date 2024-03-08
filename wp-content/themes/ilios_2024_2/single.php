@@ -2,16 +2,24 @@
 get_header();
 ?>
 
-</header>
-
 <?php
 while (have_posts()) {
     the_post();
     ?>
+    <div style="height: 340px" class="bg-brand-yellow-3 d-flex align-items-end">
+        <div class="container pb-5">
+            <h1><?php the_title(); ?></h1>
+            <p><?php the_excerpt(); ?></p>
+        </div>
+    </div>
 
-    <h1><?php the_title(); ?></h1>
+    </header>
 
-    <content><?php the_content() ?></content>
+    <section class="bg-white py-5">
+        <div class="container">
+            <?php the_content() ?>
+        </div>
+    </section>
 
     <?php
 }

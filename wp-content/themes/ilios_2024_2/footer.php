@@ -1,5 +1,5 @@
 <footer>
-    <div class="menu-footer">
+    <div class="menu-bar-footer">
         <div class="container d-flex justify-content-between align-items-center h-100">
             <div>
                 <img src="wp-content/themes/ilios_2024_2/build/assets/logos/logo_pb.png">
@@ -7,15 +7,24 @@
 
             <div>in | inst | wha | X</div>
 
-            <nav>
-                <ul class="menu-items menu-items-footer h-100">
-                    <li class="active">Home</li>
-                    <li>Sobre</li>
-                    <li>Áreas de atuação</li>
-                    <li>Contatos</li>
-                    <li>Blog</li>
-                </ul>
-            </nav>
+<!--            <nav>-->
+<!--                <ul class="menu-items menu-items-footer h-100">-->
+<!--                    <li class="active">Home</li>-->
+<!--                    <li>Sobre</li>-->
+<!--                    <li>Áreas de atuação</li>-->
+<!--                    <li>Contatos</li>-->
+<!--                    <li>Blog</li>-->
+<!--                </ul>-->
+<!--            </nav>-->
+
+
+            <?php
+            wp_nav_menu(array(
+                    "theme_location"=>"bottomMenu",
+                "menu_class" => "menu-footer"
+            ))
+            ?>
+
         </div>
     </div>
 

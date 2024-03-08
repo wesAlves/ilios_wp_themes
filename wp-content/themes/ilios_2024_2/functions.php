@@ -14,6 +14,7 @@ function ilios_features()
 {
     add_theme_support("title");
     register_nav_menu('mainMenu', "Main Menu");
+    register_nav_menu('bottomMenu', "Bottom Menu");
 
 }
 

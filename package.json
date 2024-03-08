@@ -5,7 +5,7 @@
   "main": "src/js/index.js",
   "scripts": {
     "build": "webpack build",
-    "dev": "webpack --watch"
+    "dev": "webpack --watch --mode development"
   },
   "repository": {
     "type": "git",

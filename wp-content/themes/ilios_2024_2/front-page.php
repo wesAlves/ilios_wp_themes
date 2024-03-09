@@ -228,12 +228,12 @@ get_header();
             <!--            <br/>-->
 
 
-            <a href="https://www.openstreetmap.org/#map=19/-27.59178/-48.54734&amp;layers=N"
+            <a class="d-flex flex-column" href="https://www.openstreetmap.org/#map=19/-27.59178/-48.54734&amp;layers=N"
                target="_blank">
 
                 <img src="<?php echo get_theme_file_uri("/build/assets//map/map_pin.png") ?>" alt="">
 
-                <small  class="px-3">
+                <small class="px-3">
                     View Larger Map
                 </small>
             </a>
@@ -241,36 +241,45 @@ get_header();
 
     </section>
 
-    <section class="py-5 text-white">
-        <div class="container">
-            <h2 class="text-center mx-auto">Confira nosso blog</h2>
+    <?php
 
-            <div class="d-flex mt-5 gap-3">
+    $posts = get_posts(array(
+        "numberposts" => 3
+    ));
+    $counter = 0;
 
-                <?php
+    if (count($posts)) {
 
-                $posts = get_posts(array(
-                    "numberposts" => 3
-                ));
-                $counter = 0;
+        ?>
 
-                while ($counter < count($posts)) {
-                    the_post();
-                    ?>
+        <section class="py-5 text-white">
+            <div class="container">
+                <h2 class="text-center mx-auto">Confira nosso blog</h2>
 
-                    <div class="col-4 bg-brand-gray-1 text-brand-gray-5">
-                        <?php the_title(); ?>
-                    </div>
+                <div class="d-flex mt-5 gap-3">
+
 
                     <?php
-                    $counter++;
-                }
-                ?>
+                    while ($counter < count($posts)) {
+                        the_post();
+                        ?>
+
+                        <div class="col-4 bg-brand-gray-1 text-brand-gray-5">
+                            <?php the_title(); ?>
+                        </div>
+
+                        <?php
+                        $counter++;
+                    }
+                    ?>
+
+                </div>
 
             </div>
+        </section>
 
-        </div>
-    </section>
+    <?php } ?>
+
 </main>
 
 <?php

@@ -219,17 +219,24 @@ get_header();
 
         <div class="mt-5">
 
-            <iframe width="100%" height="272"
-                    src="https://www.openstreetmap.org/export/embed.html?bbox=-48.549227714538574%2C-27.592694778307255%2C-48.54485839605332%2C-27.590450733624795&amp;layer=mapnik&amp;marker=-27.59157276170745%2C-48.547043055295944"
-                    style="border: 1px solid transparent">
-            </iframe>
+            <!--            <iframe id="map-frame"-->
+            <!--                    width="100%" height="272"-->
+            <!--                    src="https://www.openstreetmap.org/export/embed.html?bbox=-48.549227714538574%2C-27.592694778307255%2C-48.54485839605332%2C-27.590450733624795&amp;layer=mapnik&amp;marker=-27.59157276170745%2C-48.547043055295944&"-->
+            <!--                    style="border: 1px solid transparent">-->
+            <!--            </iframe>-->
 
-            <br/>
+            <!--            <br/>-->
 
-            <small>
-                <a class="px-3" href="https://www.openstreetmap.org/#map=19/-27.59178/-48.54734&amp;layers=N"
-                   target="_blank">View Larger Map</a>
-            </small>
+
+            <a href="https://www.openstreetmap.org/#map=19/-27.59178/-48.54734&amp;layers=N"
+               target="_blank">
+
+                <img src="<?php echo get_theme_file_uri("/build/assets//map/map_pin.png") ?>" alt="">
+
+                <small  class="px-3">
+                    View Larger Map
+                </small>
+            </a>
         </div>
 
     </section>
@@ -243,7 +250,7 @@ get_header();
                 <?php
 
                 $posts = get_posts(array(
-                        "numberposts" => 3
+                    "numberposts" => 3
                 ));
                 $counter = 0;
 

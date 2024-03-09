@@ -7,20 +7,20 @@
 
             <div>in | inst | wha | X</div>
 
-<!--            <nav>-->
-<!--                <ul class="menu-items menu-items-footer h-100">-->
-<!--                    <li class="active">Home</li>-->
-<!--                    <li>Sobre</li>-->
-<!--                    <li>Áreas de atuação</li>-->
-<!--                    <li>Contatos</li>-->
-<!--                    <li>Blog</li>-->
-<!--                </ul>-->
-<!--            </nav>-->
+            <!--            <nav>-->
+            <!--                <ul class="menu-items menu-items-footer h-100">-->
+            <!--                    <li class="active">Home</li>-->
+            <!--                    <li>Sobre</li>-->
+            <!--                    <li>Áreas de atuação</li>-->
+            <!--                    <li>Contatos</li>-->
+            <!--                    <li>Blog</li>-->
+            <!--                </ul>-->
+            <!--            </nav>-->
 
 
             <?php
             wp_nav_menu(array(
-                    "theme_location"=>"bottomMenu",
+                "theme_location" => "bottomMenu",
                 "menu_class" => "menu-footer"
             ))
             ?>

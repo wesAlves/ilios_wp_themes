@@ -17,27 +17,41 @@
                     <p>De Segunda a Sexta-feira das 10:00 as 17:00</p>
                 </div>
 
+                <?php
+
+                function send_mail()
+                {
+                    $name = $_POST['name'];
+                    $email = $_POST['email'];
+                    $phone = $_POST['phone'];
+                    $message = $_POST['message'];
+
+                    echo $name, $email, $phone, $message;
+                }
+
+                ?>
+
                 <div class="col-6 offset-2">
-                    <form action="">
+                    <form method="post" action="<?php send_mail() ?>">
                         <div class="mb-3">
                             <label for="name" class="form-label">Nome</label>
                             <input type="text" class="form-control" id="name"
                                    aria-describedby="nameHelp">
-<!--                            <div id="nameHelp" class="form-text">Entre com o seu nome.</div>-->
+                            <!--                            <div id="nameHelp" class="form-text">Entre com o seu nome.</div>-->
                         </div>
 
                         <div class="mb-3">
                             <label for="email1" class="form-label">Email</label>
                             <input type="email" class="form-control" id="email"
                                    aria-describedby="emailHelp">
-<!--                            <div id="emailHelp" class="form-text">Entre com seu email.</div>-->
+                            <!--                            <div id="emailHelp" class="form-text">Entre com seu email.</div>-->
                         </div>
 
                         <div class="mb-3">
                             <label for="phone" class="form-label">Telefone</label>
-                            <input type="email" class="form-control" id="phone"
+                            <input type="phone" class="form-control" id="phone"
                                    aria-describedby="phoneHelp">
-<!--                            <div id="phoneHelp" class="form-text">Entre com o DD e o número de telefone.</div>-->
+                            <!--                            <div id="phoneHelp" class="form-text">Entre com o DD e o número de telefone.</div>-->
                         </div>
 
                         <div class="mb-3">
@@ -50,6 +64,7 @@
                 </div>
             </div>
         </div>
+
 
         <div class="mt-5">
 

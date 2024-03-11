@@ -4,7 +4,7 @@
         <div class="container">
             <h2 class="text-center mx-auto">Contatos e localização</h2>
 
-            <div class="row">
+            <div class="d-flex justify-content-between align-items-center">
                 <div class="col-4">
                     <p>Rua Feliciano Nunes Pires, 168, Ed. Igor , Salas 05, Centro, Florianópolis - 88015-220.</p>
 
@@ -16,22 +16,35 @@
 
                     <p>De Segunda a Sexta-feira das 10:00 as 17:00</p>
                 </div>
+
                 <div class="col-6 offset-2">
                     <form action="">
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                   aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            <label for="name" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="name"
+                                   aria-describedby="nameHelp">
+<!--                            <div id="nameHelp" class="form-text">Entre com o seu nome.</div>-->
                         </div>
+
                         <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
+                            <label for="email1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email"
+                                   aria-describedby="emailHelp">
+<!--                            <div id="emailHelp" class="form-text">Entre com seu email.</div>-->
                         </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Telefone</label>
+                            <input type="email" class="form-control" id="phone"
+                                   aria-describedby="phoneHelp">
+<!--                            <div id="phoneHelp" class="form-text">Entre com o DD e o número de telefone.</div>-->
                         </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="message" rows="5"></textarea>
+                        </div>
+
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                 </div>

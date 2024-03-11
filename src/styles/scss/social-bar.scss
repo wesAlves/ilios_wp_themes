@@ -14,3 +14,18 @@
 
   }
 }
+
+.social-icons {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+
+  & > a {
+    color: $brand-gray-5;
+
+    &:hover{
+      filter: brightness(200%);
+    }
+  }
+}

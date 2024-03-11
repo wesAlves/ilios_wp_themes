@@ -5,7 +5,7 @@
                 <img src="<?php echo get_theme_file_uri("/build/assets/logos/logo_pb.png") ?>">
             </div>
 
-            <div>in | inst | wha | X</div>
+            <?php include "components/social-icons.php" ?></php>
 
             <!--            <nav>-->
             <!--                <ul class="menu-items menu-items-footer h-100">-->

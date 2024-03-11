@@ -6,7 +6,7 @@ get_header();
 while (have_posts()) {
     the_post();
     ?>
-    <div style="height: 340px" class="bg-brand-yellow-3 d-flex align-items-end">
+    <div style="height: 340px; background-image: url(<?php echo get_theme_file_uri('/build/assets/headers/justice.png') ?>), linear-gradient(#cb9f6000, black);" class="banner-page bg-brand-yellow-3 d-flex align-items-end">
         <div class="container pb-5">
             <h1><?php the_title(); ?></h1>
             <p><?php the_excerpt(); ?></p>

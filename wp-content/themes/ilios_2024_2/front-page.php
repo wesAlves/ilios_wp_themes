@@ -49,7 +49,7 @@ get_header();
 </header>
 
 <main class="h-100">
-    <section class="bg-brand-gray-1 py-5">
+    <section class="bg-brand-gray-1 py-5" id="about">
         <div class="container">
             <h2 class="text-center mx-auto">Sobre o escritório</h2>
 
@@ -179,67 +179,7 @@ get_header();
         </div>
     </section>
 
-    <section class="py-5 text-white">
-        <div class="container">
-            <h2 class="text-center mx-auto">Contatos e localização</h2>
 
-            <div class="row">
-                <div class="col-4">
-                    <p>Rua Feliciano Nunes Pires, 168, Ed. Igor , Salas 05, Centro, Florianópolis - 88015-220.</p>
-
-                    <p>Celular / WhatsApp: (48) 99961 2711</p>
-
-                    <p>Fone: (48) 3207 - 0938</p>
-
-                    <p>E-mail: rossanamc.adv@hotmail.com</p>
-
-                    <p>De Segunda a Sexta-feira das 10:00 as 17:00</p>
-                </div>
-                <div class="col-6 offset-2">
-                    <form action="">
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                   aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        <div class="mt-5">
-
-            <!--            <iframe id="map-frame"-->
-            <!--                    width="100%" height="272"-->
-            <!--                    src="https://www.openstreetmap.org/export/embed.html?bbox=-48.549227714538574%2C-27.592694778307255%2C-48.54485839605332%2C-27.590450733624795&amp;layer=mapnik&amp;marker=-27.59157276170745%2C-48.547043055295944&"-->
-            <!--                    style="border: 1px solid transparent">-->
-            <!--            </iframe>-->
-
-            <!--            <br/>-->
-
-
-            <a class="d-flex flex-column" href="https://www.openstreetmap.org/#map=19/-27.59178/-48.54734&amp;layers=N"
-               target="_blank">
-
-                <img src="<?php echo get_theme_file_uri("/build/assets//map/map_pin.png") ?>" alt="">
-
-                <small class="px-3">
-                    Ver o mapa completo
-                </small>
-            </a>
-        </div>
-
-    </section>
 
     <?php
 

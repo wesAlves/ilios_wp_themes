@@ -234,7 +234,7 @@ get_header();
                 <img src="<?php echo get_theme_file_uri("/build/assets//map/map_pin.png") ?>" alt="">
 
                 <small class="px-3">
-                    View Larger Map
+                    Ver o mapa completo
                 </small>
             </a>
         </div>

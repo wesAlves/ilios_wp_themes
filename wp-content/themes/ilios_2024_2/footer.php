@@ -28,8 +28,10 @@
         </div>
     </div>
 
-    <div class="developer-bar">
-        desenvolvido por: Wes Benvindo | 2024
+    <div class="developer-bar d-flex align-items-center">
+        <a href="mailto:wal2.designe@gmail.com" class="container text-center text-decoration-none text-brand-gray-5 opacity-50">
+            desenvolvido por: Wes Benvindo | 2024
+        </a>
     </div>
 </footer>
 

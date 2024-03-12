@@ -196,22 +196,8 @@ get_header();
                         <a href="<?php the_permalink(); ?>" class="col-4 card">
 
                             <div class=" w-100" alt="...">
-                                <?php
-                                if (has_post_thumbnail()) {
-//                                    echo the_post_thumbnail(array("430", "auto"));
-                                    ?>
-
-                                    <img src="<?php the_post_thumbnail_url("large"); ?>"
-                                         alt="feature" class="w-100">
-
-                                    <?php
-                                } else {
-                                    ?>
-                                    <img src="<?php echo get_theme_file_uri('/build/assets/placeholder_430_242.png') ?>"
-                                         alt="placeholder" class="w-100">
-                                    <?php
-                                }
-                                ?>
+                                <img src="<?php the_post_thumbnail_url("large"); ?>"
+                                     alt="feature" class="w-100">
                             </div>
 
                             <div class="card-body">

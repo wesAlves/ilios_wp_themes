@@ -9,7 +9,6 @@ while (have_posts()) {
     <div style="height: 340px" class="banner-page bg-brand-yellow-3 d-flex align-items-end">
         <div class="container pb-5">
             <h1><?php the_title(); ?></h1>
-            <p><?php the_excerpt(); ?></p>
         </div>
     </div>
 

@@ -2,18 +2,18 @@
 import '@splidejs/splide/css';
 import Splide from '@splidejs/splide';
 
-const homePath = window.location
+window.onload = () => {
+    const hasSlider = document.querySelector(".splide");
 
-const current = homePath.href.split("#");
-const origin = `${homePath.origin}/`;
+    if(!!hasSlider){
 
-console.log(origin, current);
+        new Splide('.splide', {
+            type: 'loop',
+            autoplay: 'true',
+            perPage: 1,
+        }).mount();
 
-if (origin === current[0]) {
-    new Splide('.splide', {
-        type: 'loop',
-        autoplay: 'true',
-        perPage: 1,
-    }).mount();
-
+    }
 }
+
+

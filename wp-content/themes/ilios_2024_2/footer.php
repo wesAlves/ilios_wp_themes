@@ -17,22 +17,8 @@
                     <p>De Segunda a Sexta-feira das 10:00 as 17:00</p>
                 </div>
 
-                <?php
-
-                function send_mail()
-                {
-                    $name = $_POST['name'];
-                    $email = $_POST['email'];
-                    $phone = $_POST['phone'];
-                    $message = $_POST['message'];
-
-                    echo $name, $email, $phone, $message;
-                }
-
-                ?>
-
                 <div class="col-6 offset-2">
-                    <form method="post" action="<?php send_mail() ?>">
+                    <form method="post">
                         <div class="mb-3">
                             <label for="name" class="form-label">Nome</label>
                             <input type="text" class="form-control" id="name"

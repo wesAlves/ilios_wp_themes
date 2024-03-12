@@ -5,44 +5,30 @@ get_header();
 <section class="splide" aria-label="Splide Basic HTML Example">
     <div class="splide__track">
         <ul class="splide__list">
-            <li class="splide__slide temp slide-1">
+            <li class="splide__slide temp slide-1" style="background: url(<?php echo get_theme_file_uri("/build/assets/hero-images/slide_1.png") ?>); background-size: cover; background-position: center center">
                 <div class="container h-100 d-flex align-items-center">
                     <div class="col-4">
-                        <p> HTML element represents a paragraph. Paragraphs are usually represented in visual media as
-                            blocks of text separated from adjacent blocks by blank lines and/or first-line indentation,
-                            but
-                            HTML paragraphs can be any structural grouping of related content, such as images or form
-                            fields.</p>
-                        <button class="btn btn-primary">Click me</button>
+                        <p style="font-size: 24px; color: #fff;" class="mb-4">
+                            Direito trabalhista, Direto médico e Direito odontológico, em favor a empresas e profissionáis da área
+                        </p>
+
+                        <a href="#contact" class="btn btn-primary">Entre com contato</a>
                     </div>
                 </div>
             </li>
 
-            <li class="splide__slide temp slide-2">
+            <li class="splide__slide temp slide-1" style="background: url(<?php echo get_theme_file_uri("/build/assets/hero-images/slide_2.png") ?>); background-size: cover; background-position: center center">
                 <div class="container h-100 d-flex align-items-center">
                     <div class="col-4 offset-8">
-                        <p> HTML element represents a paragraph. Paragraphs are usually represented in visual media as
-                            blocks of text separated from adjacent blocks by blank lines and/or first-line indentation,
-                            but
-                            HTML paragraphs can be any structural grouping of related content, such as images or form
-                            fields.</p>
-                        <button class="btn btn-primary">Click me</button>
+                        <p style="font-size: 24px; color: #fff;" class="mb-4">
+                            Serviços jurídicos com qualidade, honestidade, segurança e eficiência no centro de Florianópolis/SC.
+                        </p>
+
+                        <a href="#contact" class="btn btn-primary">Entre com contato</a>
                     </div>
                 </div>
             </li>
 
-            <li class="splide__slide temp slide-3">
-                <div class="container h-100 d-flex align-items-center">
-                    <div class="col-4">
-                        <p> HTML element represents a paragraph. Paragraphs are usually represented in visual media as
-                            blocks of text separated from adjacent blocks by blank lines and/or first-line indentation,
-                            but
-                            HTML paragraphs can be any structural grouping of related content, such as images or form
-                            fields.</p>
-                        <button class="btn btn-primary">Click me</button>
-                    </div>
-                </div>
-            </li>
         </ul>
     </div>
 </section>
@@ -178,7 +164,6 @@ get_header();
             </div>
         </div>
     </section>
-
 
 
     <?php

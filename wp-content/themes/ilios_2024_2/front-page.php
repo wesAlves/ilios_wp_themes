@@ -5,11 +5,13 @@ get_header();
 <section class="splide" aria-label="Splide Basic HTML Example">
     <div class="splide__track">
         <ul class="splide__list">
-            <li class="splide__slide temp slide-1" style="background: url(<?php echo get_theme_file_uri("/build/assets/hero-images/slide_1.png") ?>); background-size: cover; background-position: center center">
+            <li class="splide__slide temp slide-1"
+                style="background: url(<?php echo get_theme_file_uri("/build/assets/hero-images/slide_1.png") ?>); background-size: cover; background-position: center center">
                 <div class="container h-100 d-flex align-items-center">
                     <div class="col-4">
                         <p style="font-size: 24px; color: #fff;" class="mb-4">
-                            Direito trabalhista, Direto médico e Direito odontológico, em favor a empresas e profissionáis da área
+                            Direito trabalhista, Direto médico e Direito odontológico, em favor a empresas e
+                            profissionáis da área
                         </p>
 
                         <a href="#contact" class="btn btn-primary">Entre com contato</a>
@@ -17,11 +19,13 @@ get_header();
                 </div>
             </li>
 
-            <li class="splide__slide temp slide-1" style="background: url(<?php echo get_theme_file_uri("/build/assets/hero-images/slide_2.png") ?>); background-size: cover; background-position: center center">
+            <li class="splide__slide temp slide-1"
+                style="background: url(<?php echo get_theme_file_uri("/build/assets/hero-images/slide_2.png") ?>); background-size: cover; background-position: center center">
                 <div class="container h-100 d-flex align-items-center">
                     <div class="col-4 offset-8">
                         <p style="font-size: 24px; color: #fff;" class="mb-4">
-                            Serviços jurídicos com qualidade, honestidade, segurança e eficiência no centro de Florianópolis/SC.
+                            Serviços jurídicos com qualidade, honestidade, segurança e eficiência no centro de
+                            Florianópolis/SC.
                         </p>
 
                         <a href="#contact" class="btn btn-primary">Entre com contato</a>
@@ -189,9 +193,36 @@ get_header();
                         the_post();
                         ?>
 
-                        <div class="col-4 bg-brand-gray-1 text-brand-gray-5">
-                            <?php the_title(); ?>
-                        </div>
+                        <a href="<?php the_permalink(); ?>" class="col-4 card">
+
+                            <div class=" w-100" alt="...">
+                                <?php
+                                if (has_post_thumbnail()) {
+//                                    echo the_post_thumbnail(array("430", "auto"));
+                                    ?>
+
+                                    <img src="<?php the_post_thumbnail_url("large"); ?>"
+                                         alt="feature" class="w-100">
+
+                                    <?php
+                                } else {
+                                    ?>
+                                    <img src="<?php echo get_theme_file_uri('/build/assets/placeholder_430_242.png') ?>"
+                                         alt="placeholder" class="w-100">
+                                    <?php
+                                }
+                                ?>
+                            </div>
+
+                            <div class="card-body">
+                                <h5 class="card-title"><?php the_title(); ?></h5>
+                                <p class="card-text">
+                                    <?php the_excerpt(); ?>
+                                </p>
+
+                            </div>
+                            <!--                            </div>-->
+                        </a>
 
                         <?php
                         $counter++;

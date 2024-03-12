@@ -10,7 +10,7 @@ while (have_posts()) {
         <div class="container pb-5">
             <h1><?php the_title(); ?></h1>
             <p><?php
-                (); ?></p>
+                 ?></p>
         </div>
     </div>
 

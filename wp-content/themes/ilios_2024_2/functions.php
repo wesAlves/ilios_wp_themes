@@ -15,7 +15,13 @@ function ilios_features()
     add_theme_support("title");
     register_nav_menu('mainMenu', "Main Menu");
     register_nav_menu('bottomMenu', "Bottom Menu");
+    add_theme_support("post-thumbnails");
 
 }
 
 add_action("after_setup_theme", "ilios_features");
+
+function wpdocs_custom_excerpt_length( $length ) {
+    return 20;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );

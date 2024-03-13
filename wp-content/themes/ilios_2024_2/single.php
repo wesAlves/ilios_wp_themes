@@ -9,9 +9,9 @@ while (have_posts()) {
     $image = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()), 'single-post-thumbnail');
 
     ?>
-    <div style="height: 340px; background-image: url(<?php echo $image[0]; ?>), linear-gradient(#cb9f6000, black);"
+    <div style="height: 340px; background-image: url(<?php echo $image[0]; ?>), linear-gradient(#cb9f6000, black); background-blend-mode: multiply"
          class="banner-page bg-brand-yellow-3 d-flex align-items-end">
-        <div class="container pb-5">
+        <div class="container pb-5 text-white">
             <h1><?php the_title(); ?></h1>
         </div>
     </div>

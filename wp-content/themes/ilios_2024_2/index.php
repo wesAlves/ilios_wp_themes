@@ -1,14 +1,14 @@
 <?php
 get_header();
 ?>
-<div style="height: 340px; background-image: url(<?php echo get_theme_file_uri('/build/assets/headers/justice.png') ?>), linear-gradient(#cb9f6000, black);"
+<div style="height: 340px; background-image: url(<?php echo get_theme_file_uri('/build/assets/headers/justice.png') ?>), linear-gradient(#cb9f6000, black); background-blend-mode: multiply;"
      class="banner-page bg-brand-yellow-3 d-flex align-items-end">
     <div class="container pb-5">
-        <div class="col-5">
-            <h1 style="color: #333333">Blog</h1>
-            <p style="font-size: 24px; color: #333333" class="mb-0">Seja bem vindo ao blog do site Rossana
+        <div class="col-md-5">
+            <h1 style="color: white">Blog</h1>
+            <p style="font-size: 24px; color: white" class="mb-0">Seja bem vindo ao blog do site Rossana
                 Advocacia.</p>
-            <p style="font-size: 24px;  color: #333333">Aqui você encontrará notícias e matérias relavantes às áreas do
+            <p style="font-size: 24px;  color: white">Aqui você encontrará notícias e matérias relavantes às áreas do
                 direito.</p>
 
         </div>

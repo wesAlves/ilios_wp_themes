@@ -6,8 +6,10 @@ get_header();
 while (have_posts()) {
     the_post();
     ?>
-    <div style="height: 340px; background-image: url(<?php echo get_theme_file_uri('/build/assets/headers/justice.png') ?>), linear-gradient(#cb9f6000, black);" class="banner-page bg-brand-yellow-3 d-flex align-items-end">
-        <div class="container pb-5">
+
+    <div style="height: 340px; background-image: url(<?php echo get_theme_file_uri('/build/assets/headers/justice.png') ?>), linear-gradient(#cb9f6000, black); background-blend-mode: multiply;"
+         class="banner-page bg-brand-yellow-3 d-flex align-items-end">
+        <div class="container pb-5 text-white">
             <h1><?php the_title(); ?></h1>
             <p><?php
                  ?></p>

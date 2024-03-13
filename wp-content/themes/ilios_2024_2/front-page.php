@@ -8,7 +8,7 @@ get_header();
             <li class="splide__slide temp slide-1"
                 style="background: url(<?php echo get_theme_file_uri("/build/assets/hero-images/slide_1.png") ?>); background-size: cover; background-position: center center">
                 <div class="container h-100 d-flex align-items-center">
-                    <div class="col-4">
+                    <div class="col-md-4 px-5 px-md-auto">
                         <p style="font-size: 24px; color: #fff;" class="mb-4">
                             Direito trabalhista, Direto médico e Direito odontológico, em favor a empresas e
                             profissionáis da área
@@ -22,7 +22,7 @@ get_header();
             <li class="splide__slide temp slide-1"
                 style="background: url(<?php echo get_theme_file_uri("/build/assets/hero-images/slide_2.png") ?>); background-size: cover; background-position: center center">
                 <div class="container h-100 d-flex align-items-center">
-                    <div class="col-4 offset-8">
+                    <div class="col-md-4 offset-md-8 px-5 px-md-auto">
                         <p style="font-size: 24px; color: #fff;" class="mb-4">
                             Serviços jurídicos com qualidade, honestidade, segurança e eficiência no centro de
                             Florianópolis/SC.

@@ -3,7 +3,7 @@
 <head>
     <?php wp_head(); ?>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
 </head>
 
@@ -63,4 +63,19 @@
                     "theme_location" => 'mainMenu',
                 )); ?></div>
         </div>
+
+        <script>
+            const contact = document.querySelectorAll("[href='#contact']");
+            const closeBtn = document.querySelector("[data-bs-dismiss]");
+
+            if (contact) {
+                contact.forEach(contactLink => {
+                    contactLink.addEventListener("click", () => {
+                        closeBtn.click();
+                    })
+                })
+            }
+
+        </script>
+
     </div>

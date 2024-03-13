@@ -86,54 +86,54 @@ get_header();
             <h2 class="text-center m-auto">Áreas de atuação</h2>
 
             <div class="my-5">
-                <div class="p-0 m-0 d-md-flex flex-wrap list-unstyled">
-                    <div class="col-md-4 d-flex flex-column align-items-center mt-5">
+                <div class="p-0 m-0 d-md-flex flex-wrap text-decoration-none">
+                    <a href="<?php echo get_permalink(56) ?>" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">
                         <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
                         <h3 class="mt-3 text-center w-75">Direito Trabalhista <br/><span
                                     class="small text-white-50">para empresas</span>
                         </h3>
-                    </div>
+                    </a>
 
-                    <div class="col-md-4 d-flex flex-column align-items-center mt-5">
+                    <a href="<?php echo get_permalink(56) ?>" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">
                         <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
                         <h3 class="mt-3 text-center w-75">Direito Odontológico <br/><span
                                     class="small text-white-50">para dentistas</span>
                         </h3>
-                    </div>
-                    <div class="col-md-4 d-flex flex-column align-items-center mt-5">
+                    </a>
+                    <a href="<?php echo get_permalink(56) ?>" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">
                         <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
                         <h3 class="mt-3 text-center w-75">Direito Esteticista <br/><span
                                     class="small text-white-50">para profissionais</span>
                         </h3>
-                    </div>
-                    <div class="col-md-4 d-flex flex-column align-items-center mt-5">
+                    </a>
+                    <a href="<?php echo get_permalink(56) ?>" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">
                         <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
                         <h3 class="mt-3 text-center w-75">Direito laboratorial</h3>
-                    </div>
-                    <div class="col-md-4 d-flex flex-column align-items-center mt-5">
+                    </a>
+                    <a href="<?php echo get_permalink(56) ?>" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">
                         <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
                         <h3 class="mt-3 text-center w-75">Direito Médico<br/>
                             <span class="small text-white-50">para médicos</span>
                         </h3>
-                    </div>
-                    <div class="col-md-4 d-flex flex-column align-items-center mt-5">
+                    </a>
+                    <a href="<?php echo get_permalink(56) ?>" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">
                         <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
                         <h3 class="mt-3 text-center w-75">Atuação em tribunais<br/><span
                                     class="small text-white-50">Direito geral</span>
                         </h3>
-                    </div>
+                    </a>
 
                 </div>
             </div>

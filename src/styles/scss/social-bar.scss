@@ -2,9 +2,9 @@
 
 
 .social-bar {
-
   background: $brand-gray-1;
-  height: 48px;
+  height: auto;
+  padding: 1em 1em;
 
   &-header {
     border-top: solid 3px $brand-gray-5;
@@ -13,6 +13,12 @@
   &-footer {
 
   }
+
+  @include media-breakpoint-up(md){
+  height: 48px;
+
+  }
+
 }
 
 .social-icons {

@@ -29,8 +29,24 @@ get_header();
                     <?php the_post_thumbnail("thumbnail"); ?>
                 </div>
                 <div class="col-auto align-items-center">
-                    <?php the_title(); ?>
-                    <?php the_excerpt(); ?>
+                    <h5>
+                        <?php
+                        the_title();
+                        ?>
+                    </h5>
+
+                    <p class="text-brand-gray-5 opacity-50 my-0">
+                        Publicado em:
+                        <?php
+                        the_date("d/M/Y");
+                        ?>
+                    </p>
+
+                    <p class="my-0">
+                        <?php
+                        the_excerpt();
+                        ?>
+                    </p>
 
                     <a href="<?php the_permalink() ?>" class="btn btn-primary">Ler mais</a>
                 </div>

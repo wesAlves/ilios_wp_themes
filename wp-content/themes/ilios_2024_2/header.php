@@ -2,14 +2,17 @@
 <html lang="pt">
 <head>
     <?php wp_head(); ?>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
 </head>
 
 <body>
 
 <header>
     <div class="social-bar">
-        <div class="container d-flex justify-content-between align-items-center h-100">
-            <div>Rossana Advocacia e consultoria - OAB 323232/SC</div>
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center h-100">
+            <h1 style="font-size: 1em">Rossana Advocacia e consultoria - OAB 323232/SC</h1>
 
             <div class="social-icons">
                 <a href="" target="_blank">
@@ -29,23 +32,32 @@
 
     <div class="menu-bar">
         <div class="container d-flex justify-content-between align-items-center h-100 overflow-hidden">
+
             <div class="logo">
                 <img src="<?php echo get_theme_file_uri("/build/assets/logos/logo_color.png") ?>">
             </div>
 
-            <!--            <nav>-->
-            <!--                <ul class="menu">-->
-            <!--                    <li class="menu-item active">Home</li>-->
-            <!--                    <li class="menu-item">Sobre</li>-->
-            <!--                    <li class="menu-item">Áreas de atuação</li>-->
-            <!--                    <li class="menu-item">Contatos</li>-->
-            <!--                    <li class="menu-item">Blog</li>-->
-            <!--                </ul>-->
-            <!--            </nav>-->
+            <button class="btn text-white d-md-none">
+                <i class="fa-solid fa-bars"></i>
+            </button>
 
-            <?php wp_nav_menu(array(
-                "theme_location" => 'mainMenu',
-            )); ?>
+            <div class="d-none d-md-flex">
+                <?php wp_nav_menu(array(
+                    "theme_location" => 'mainMenu',
+                )); ?>
+            </div>
+
+            <div class="mobile-menu-container">
+
+                    <button class="btn py-3 text-white mb-5 w-100">
+                        fechar <i class="fa-solid fa-xmark flex-1 ml-3"></i>
+                    </button>
+
+                <?php wp_nav_menu(array(
+                    "theme_location" => 'mainMenu',
+                )); ?>
+            </div>
+
 
         </div>
     </div>

@@ -18,6 +18,10 @@
                 </div>
 
                 <div class="col-6 offset-2">
+
+                    <!--                    echo do_shortcode('[contact-form-7 id="28fa4a6" title="Form contato 2024"]') -->
+
+
                     <form method="post">
                         <div class="mb-3">
                             <label for="name" class="form-label">Nome</label>

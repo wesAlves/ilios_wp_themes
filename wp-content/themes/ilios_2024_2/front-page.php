@@ -43,8 +43,8 @@ get_header();
         <div class="container">
             <h2 class="text-center mx-auto">Sobre o escritório</h2>
 
-            <div class="row mt-5">
-                <div class="col-6">
+            <div class="div d-md-flex mt-5">
+                <div class="col-md-6">
                     <p>Situado no centro de Florianópolis/SC, o escritório visa à prestação de serviços jurídicos com
                         qualidade, honestidade, segurança e eficiência no âmbito consultivo, consensual, contencioso e
                         preventivo para pessoas físicas ou jurídicas.</p>
@@ -60,7 +60,7 @@ get_header();
                         especialização e constante atualização do conhecimento nas ações profissionais.</p>
                 </div>
 
-                <div class="col-6">
+                <div class="col-md-6">
                     <p>Tudo para que os trabalhos sejam feitos com a agilidade e a segurança de se cumprir prazos
                         somados à
                         excelência dos serviços que o cliente merece. </p>
@@ -86,8 +86,8 @@ get_header();
             <h2 class="text-center m-auto">Áreas de atuação</h2>
 
             <div class="my-5">
-                <div class="p-0 m-0 d-flex flex-wrap list-unstyled">
-                    <div class="col-4 d-flex flex-column align-items-center mt-5">
+                <div class="p-0 m-0 d-md-flex flex-wrap list-unstyled">
+                    <div class="col-md-4 d-flex flex-column align-items-center mt-5">
                         <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
@@ -96,7 +96,7 @@ get_header();
                         </h3>
                     </div>
 
-                    <div class="col-4 d-flex flex-column align-items-center mt-5">
+                    <div class="col-md-4 d-flex flex-column align-items-center mt-5">
                         <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
@@ -104,7 +104,7 @@ get_header();
                                     class="small text-white-50">para dentistas</span>
                         </h3>
                     </div>
-                    <div class="col-4 d-flex flex-column align-items-center mt-5">
+                    <div class="col-md-4 d-flex flex-column align-items-center mt-5">
                         <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
@@ -112,13 +112,13 @@ get_header();
                                     class="small text-white-50">para profissionais</span>
                         </h3>
                     </div>
-                    <div class="col-4 d-flex flex-column align-items-center mt-5">
+                    <div class="col-md-4 d-flex flex-column align-items-center mt-5">
                         <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
                         <h3 class="mt-3 text-center w-75">Direito laboratorial</h3>
                     </div>
-                    <div class="col-4 d-flex flex-column align-items-center mt-5">
+                    <div class="col-md-4 d-flex flex-column align-items-center mt-5">
                         <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
@@ -126,7 +126,7 @@ get_header();
                             <span class="small text-white-50">para médicos</span>
                         </h3>
                     </div>
-                    <div class="col-4 d-flex flex-column align-items-center mt-5">
+                    <div class="col-md-4 d-flex flex-column align-items-center mt-5">
                         <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
                             <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
                         </div>
@@ -144,13 +144,13 @@ get_header();
     <section class="bg-brand-gray-1">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-md-4 p-0 p-md-auto">
                     <img src="wp-content/themes/ilios_2024_2/build/assets/fotos_rossana/rossana_fundo_claro_11_23 2.png"
                          alt="" class="w-100">
                 </div>
 
-                <div class="col-8 p-5">
-                    <h2 class="text-center mx-auto">Quem é Dr. Rossana Mansur Colier</h2>
+                <div class="col-md-8 py-5 px-md-5">
+                    <h2 class="text-center mx-md-auto p-0">Quem é Dr. Rossana Mansur Colier</h2>
 
                     <p>Bacharel em direito pela Pontifícia Universidade Católica de Minas Gerais(PUC-MG) em 1993.</p>
 
@@ -185,7 +185,7 @@ get_header();
             <div class="container">
                 <h2 class="text-center mx-auto">Confira nosso blog</h2>
 
-                <div class="d-flex mt-5 gap-3">
+                <div class="d-md-flex mt-5 gap-3">
 
 
                     <?php
@@ -193,7 +193,7 @@ get_header();
                         the_post();
                         ?>
 
-                        <a href="<?php the_permalink(); ?>" class="col-4 card">
+                        <a href="<?php the_permalink(); ?>" class="col-md-4 card mt-5 mt-md-0 ">
 
                             <div class=" w-100" alt="...">
                                 <img src="<?php the_post_thumbnail_url("large"); ?>"

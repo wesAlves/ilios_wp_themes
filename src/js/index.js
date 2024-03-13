@@ -1,3 +1,6 @@
+// import * as bootstrap from 'bootstrap'
+import "bootstrap"
+
 import "../styles/scss/main.scss"
 
 import './slider/index';

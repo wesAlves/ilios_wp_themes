@@ -37,22 +37,12 @@
                 <img src="<?php echo get_theme_file_uri("/build/assets/logos/logo_color.png") ?>">
             </div>
 
-            <button class="btn text-white d-md-none">
+            <button class="btn text-white d-md-none" data-bs-toggle="modal" data-bs-target="#mobile-menu">
                 <i class="fa-solid fa-bars"></i>
             </button>
 
+
             <div class="d-none d-md-flex">
-                <?php wp_nav_menu(array(
-                    "theme_location" => 'mainMenu',
-                )); ?>
-            </div>
-
-            <div class="mobile-menu-container">
-
-                    <button class="btn py-3 text-white mb-5 w-100">
-                        fechar <i class="fa-solid fa-xmark flex-1 ml-3"></i>
-                    </button>
-
                 <?php wp_nav_menu(array(
                     "theme_location" => 'mainMenu',
                 )); ?>
@@ -62,3 +52,15 @@
         </div>
     </div>
 
+    <div class="modal " id="mobile-menu" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content bg-brand-gray-5">
+                <button class="btn py-3 text-white mb-5 w-100" data-bs-dismiss="modal">
+                    fechar <i class="fa-solid fa-xmark flex-1 ml-3"></i>
+                </button>
+
+                <?php wp_nav_menu(array(
+                    "theme_location" => 'mainMenu',
+                )); ?></div>
+        </div>
+    </div>

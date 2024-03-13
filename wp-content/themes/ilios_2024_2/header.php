@@ -34,7 +34,7 @@
         <div class="container d-flex justify-content-between align-items-center h-100 overflow-hidden">
 
             <div class="logo">
-                <img src="<?php echo get_theme_file_uri("/build/assets/logos/logo_color.png") ?>">
+                <img style="max-width: 240px" src="<?php echo get_theme_file_uri("/build/assets/logos/logo_color.png") ?>">
             </div>
 
             <button class="btn text-white d-md-none" data-bs-toggle="modal" data-bs-target="#mobile-menu">

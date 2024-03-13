@@ -48,9 +48,11 @@
       border-radius: 8px;
 
       @include media-breakpoint-up(md) {
+        display: unset;
         border: solid 1px transparent;
         border-radius: 0;
         font-size: 12px;
+        margin-bottom: 0;
       }
 
       &[aria-current] {
@@ -79,7 +81,7 @@
   position: absolute;
   z-index: 10;
   background: rgba($brand-gray-5, .95);
-  padding: 1.5em;
+  padding: 1.5em 32px;
   top: 0;
   left: 0;
   bottom: 0;

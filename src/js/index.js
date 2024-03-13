@@ -16,4 +16,9 @@ library.add(fab, far, fas)
 dom.i2svg()
 
 
-addEventListener("scroll", () => stickyMenu())
+window.addEventListener("scroll", () => {
+    stickyMenu();
+});
+window.addEventListener("touchmove", () => {
+    stickyMenu();
+});

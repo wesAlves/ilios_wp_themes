@@ -4,8 +4,8 @@
         <div class="container">
             <h2 class="text-center mx-auto">Contatos e localização</h2>
 
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="col-4">
+            <div class="d-md-flex  justify-content-between align-items-center">
+                <div class="col-md-4">
                     <p>Rua Feliciano Nunes Pires, 168, Ed. Igor , Salas 05, Centro, Florianópolis - 88015-220.</p>
 
                     <p>Celular / WhatsApp: (48) 99961 2711</p>
@@ -17,7 +17,7 @@
                     <p>De Segunda a Sexta-feira das 10:00 as 17:00</p>
                 </div>
 
-                <div class="col-6 offset-2">
+                <div class="col-md-6 offset-md-2 mt-5 mt-md-0">
 
                     <!--                    echo do_shortcode('[contact-form-7 id="28fa4a6" title="Form contato 2024"]') -->
 
@@ -99,23 +99,14 @@
                 </a>
             </div>
 
-            <!--            <nav>-->
-            <!--                <ul class="menu-items menu-items-footer h-100">-->
-            <!--                    <li class="active">Home</li>-->
-            <!--                    <li>Sobre</li>-->
-            <!--                    <li>Áreas de atuação</li>-->
-            <!--                    <li>Contatos</li>-->
-            <!--                    <li>Blog</li>-->
-            <!--                </ul>-->
-            <!--            </nav>-->
-
-
-            <?php
-            wp_nav_menu(array(
-                "theme_location" => "bottomMenu",
-                "menu_class" => "menu-footer"
-            ))
-            ?>
+            <div class="d-none d-md-flex">
+                <?php
+                wp_nav_menu(array(
+                    "theme_location" => "bottomMenu",
+                    "menu_class" => "menu-footer"
+                ))
+                ?>
+            </div>
 
         </div>
     </div>

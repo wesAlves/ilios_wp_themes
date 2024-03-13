@@ -18,6 +18,15 @@
     color: white;
     font-size: 12px;
 
+    &-stick{
+      @extend .menu-bar;
+
+      position: fixed;
+      top:0;
+      width: 100%;
+      z-index: 100;
+    }
+
     &-footer {
       height: 96px;
       background: $brand-gray-1;

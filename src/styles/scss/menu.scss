@@ -1,4 +1,4 @@
-@import "variables";
+@import "_variables";
 
 .menu {
   list-style: none;
@@ -72,8 +72,8 @@
           background: none;
           color: $primary;
 
-          border-left-color: $brand-yellow-1;
-          border-right-color: $brand-yellow-1;
+          border-left-color: $tertiary;
+          border-right-color: $tertiary;
         }
       }
     }

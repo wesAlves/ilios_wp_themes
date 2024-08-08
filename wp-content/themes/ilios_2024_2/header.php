@@ -12,7 +12,7 @@
 <header>
     <div class="social-bar">
         <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center h-100">
-            <h1 style="font-size: 1em">Rossana Advocacia e consultoria - OAB 323232/SC</h1>
+            <h1 style="font-size: 1em">Thrabe.pt</h1>
 
             <div class="social-icons">
                 <a href="" target="_blank">

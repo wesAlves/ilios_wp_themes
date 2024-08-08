@@ -10,8 +10,7 @@ get_header();
                 <div class="container h-100 d-flex align-items-center">
                     <div class="col-md-4 px-5 px-md-auto">
                         <p style="font-size: 24px; color: #fff;" class="mb-4">
-                            Direito trabalhista, Direto médico e Direito odontológico, em favor a empresas e
-                            profissionáis da área
+                            JACA MELÃO AMORA
                         </p>
 
                         <a href="#contact" class="btn btn-primary">Entre com contato</a>
@@ -24,8 +23,7 @@ get_header();
                 <div class="container h-100 d-flex align-items-center">
                     <div class="col-md-4 offset-md-8 px-5 px-md-auto">
                         <p style="font-size: 24px; color: #fff;" class="mb-4">
-                            Serviços jurídicos com qualidade, honestidade, segurança e eficiência no centro de
-                            Florianópolis/SC.
+                            AQUI AINDA NÃ SEI O QUE É
                         </p>
 
                         <a href="#contact" class="btn btn-primary">Entre com contato</a>
@@ -39,101 +37,72 @@ get_header();
 </header>
 
 <main class="h-100">
-    <section class="bg-brand-gray-1 py-5" id="about">
-        <div class="container">
-            <h2 class="text-center mx-auto">Sobre o escritório</h2>
-
-            <div class="div d-md-flex mt-5">
-                <div class="col-md-6">
-                    <p>Situado no centro de Florianópolis/SC, o escritório visa à prestação de serviços jurídicos com
-                        qualidade, honestidade, segurança e eficiência no âmbito consultivo, consensual, contencioso e
-                        preventivo para pessoas físicas ou jurídicas.</p>
-
-                    <p>A boa base profissional será o alicerce para o relacionamento advogado/cliente, sendo
-                        imprescindível
-                        a orientação precisa ao cliente acerca do direito pretendido ou defendido e tudo mais que disser
-                        respeito ao processo já em curso ou ao eventual futuro processo em todas as suas fases.</p>
-
-                    <p>Nossos parceiros acompanham a evolução do direito em decorrência das constantes mudanças na
-                        legislação nacional e a modernidade da justiça, já que a nova realidade do mercado jurídico
-                        impõe a
-                        especialização e constante atualização do conhecimento nas ações profissionais.</p>
-                </div>
-
-                <div class="col-md-6">
-                    <p>Tudo para que os trabalhos sejam feitos com a agilidade e a segurança de se cumprir prazos
-                        somados à
-                        excelência dos serviços que o cliente merece. </p>
-
-                    <p>Compromisso com causas sociais e com a defesa dos direitos humanos. A advocacia tem o dever de
-                        construir uma sociedade melhor.</p>
-
-                    <p>Os clientes têm a certeza de que seus processos estão sob constante vigilância profissional. A
-                        tríade
-                        conhecimento, experiência e reputação profissional é a marca que distingue o escritório e
-                        proporciona a seus clientes soluções e resultados efetivos para a tomada de decisões e redução
-                        de
-                        riscos.</p>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
+<!--    <section class="bg-brand-gray-1 py-5" id="about">-->
+<!--        <div class="container">-->
+<!--            <h2 class="text-center mx-auto">Sobre a Trhabe</h2>-->
+<!---->
+<!--            <div class="div d-md-flex mt-5">-->
+<!---->
+<!--                aqui vem os cards para os serviços e produtos-->
+<!---->
+<!--            </div>-->
+<!---->
+<!--        </div>-->
+<!--    </section>-->
 
     <section class="py-5 text-white">
         <div class="container">
-            <h2 class="text-center m-auto">Áreas de atuação</h2>
+            <h2 class="text-left">Produtos em destaque</h2>
 
             <div class="my-5">
                 <div class="p-0 m-0 d-md-flex flex-wrap text-decoration-none">
-                    <a href="<?php echo get_permalink(56) ?>" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">
-                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
-                            <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
-                        </div>
-                        <h3 class="mt-3 text-center w-75">Direito Trabalhista <br/><span
-                                    class="small text-white-50">para empresas</span>
-                        </h3>
-                    </a>
-
-                    <a href="<?php echo get_permalink(56) ?>" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">
-                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
-                            <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
-                        </div>
-                        <h3 class="mt-3 text-center w-75">Direito Odontológico <br/><span
-                                    class="small text-white-50">para dentistas</span>
-                        </h3>
-                    </a>
-                    <a href="<?php echo get_permalink(56) ?>" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">
-                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
-                            <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
-                        </div>
-                        <h3 class="mt-3 text-center w-75">Direito Esteticista <br/><span
-                                    class="small text-white-50">para profissionais</span>
-                        </h3>
-                    </a>
-                    <a href="<?php echo get_permalink(56) ?>" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">
-                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
-                            <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
-                        </div>
-                        <h3 class="mt-3 text-center w-75">Direito laboratorial</h3>
-                    </a>
-                    <a href="<?php echo get_permalink(56) ?>" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">
-                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
-                            <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
-                        </div>
-                        <h3 class="mt-3 text-center w-75">Direito Médico<br/>
-                            <span class="small text-white-50">para médicos</span>
-                        </h3>
-                    </a>
-                    <a href="<?php echo get_permalink(56) ?>" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">
-                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">
-                            <img src="<?php echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?>" alt="">
-                        </div>
-                        <h3 class="mt-3 text-center w-75">Atuação em tribunais<br/><span
-                                    class="small text-white-50">Direito geral</span>
-                        </h3>
-                    </a>
+<!--                    <a href="--><?php //echo get_permalink(56) ?><!--" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">-->
+<!--                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">-->
+<!--                            <img src="--><?php //echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?><!--" alt="">-->
+<!--                        </div>-->
+<!--                        <h3 class="mt-3 text-center w-75">Direito Trabalhista <br/><span-->
+<!--                                    class="small text-white-50">para empresas</span>-->
+<!--                        </h3>-->
+<!--                    </a>-->
+<!---->
+<!--                    <a href="--><?php //echo get_permalink(56) ?><!--" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">-->
+<!--                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">-->
+<!--                            <img src="--><?php //echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?><!--" alt="">-->
+<!--                        </div>-->
+<!--                        <h3 class="mt-3 text-center w-75">Direito Odontológico <br/><span-->
+<!--                                    class="small text-white-50">para dentistas</span>-->
+<!--                        </h3>-->
+<!--                    </a>-->
+<!--                    <a href="--><?php //echo get_permalink(56) ?><!--" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">-->
+<!--                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">-->
+<!--                            <img src="--><?php //echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?><!--" alt="">-->
+<!--                        </div>-->
+<!--                        <h3 class="mt-3 text-center w-75">Direito Esteticista <br/><span-->
+<!--                                    class="small text-white-50">para profissionais</span>-->
+<!--                        </h3>-->
+<!--                    </a>-->
+<!--                    <a href="--><?php //echo get_permalink(56) ?><!--" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">-->
+<!--                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">-->
+<!--                            <img src="--><?php //echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?><!--" alt="">-->
+<!--                        </div>-->
+<!--                        <h3 class="mt-3 text-center w-75">Direito laboratorial</h3>-->
+<!--                    </a>-->
+<!--                    <a href="--><?php //echo get_permalink(56) ?><!--" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">-->
+<!--                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">-->
+<!--                            <img src="--><?php //echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?><!--" alt="">-->
+<!--                        </div>-->
+<!--                        <h3 class="mt-3 text-center w-75">Direito Médico<br/>-->
+<!--                            <span class="small text-white-50">para médicos</span>-->
+<!--                        </h3>-->
+<!--                    </a>-->
+<!--                    <a href="--><?php //echo get_permalink(56) ?><!--" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">-->
+<!--                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">-->
+<!--                            <img src="--><?php //echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?><!--" alt="">-->
+<!--                        </div>-->
+<!--                        <h3 class="mt-3 text-center w-75">Atuação em tribunais<br/><span-->
+<!--                                    class="small text-white-50">Direito geral</span>-->
+<!--                        </h3>-->
+<!--                    </a>-->
 
                 </div>
             </div>

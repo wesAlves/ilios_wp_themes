@@ -6,10 +6,8 @@ get_header();
     <div class="container pb-5">
         <div class="col-md-5">
             <h1 style="color: white">Blog</h1>
-            <p style="font-size: 24px; color: white" class="mb-0">Seja bem vindo ao blog do site Rossana
-                Advocacia.</p>
-            <p style="font-size: 24px;  color: white">Aqui você encontrará notícias e matérias relavantes às áreas do
-                direito.</p>
+            <p style="font-size: 24px; color: white" class="mb-0">Seja bem vindo ao nosso blog.</p>
+            <p style="font-size: 24px;  color: white">Aqui você encontrará notícias e matérias relavantes sobre o setor de máquinas e peças.</p>
 
         </div>
     </div>

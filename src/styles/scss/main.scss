@@ -35,7 +35,13 @@ h {
     padding-bottom: 16px;
     margin-bottom: 48px;
 
-    border-bottom: solid 2px;
-    border-image: linear-gradient(to left, $brand-yellow-5, $brand-yellow-1, $brand-yellow-5) 20;
+    &::after {
+      content: "";
+      border-bottom: 4px solid $tertiary;
+      width: 40px;
+      display: block;
+      margin-top: 16px;
+    }
+
   }
 }

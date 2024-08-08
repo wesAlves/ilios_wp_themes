@@ -35,13 +35,23 @@ h {
     padding-bottom: 16px;
     margin-bottom: 48px;
 
-    &::after {
-      content: "";
-      border-bottom: 4px solid $tertiary;
-      width: 40px;
-      display: block;
-      margin-top: 16px;
+
+    &5 {
     }
 
   }
+}
+.slider-title {
+  font-size: 3.5em;
+  color: white;
+}
+.with-bar {
+  &::after {
+    content: "";
+    border-bottom: 4px solid $tertiary;
+    width: 40px;
+    display: block;
+    margin-top: 16px;
+  }
+
 }

@@ -1,6 +1,7 @@
 <?php
 get_header();
 ?>
+
 <div style="height: 340px; background-image: url(<?php echo get_theme_file_uri('/build/assets/headers/justice.png') ?>), linear-gradient(#cb9f6000, black); background-blend-mode: multiply;"
      class="banner-page bg-brand-yellow-3 d-flex align-items-end">
     <div class="container pb-5">

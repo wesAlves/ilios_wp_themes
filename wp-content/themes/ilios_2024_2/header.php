@@ -12,7 +12,7 @@
 <header>
     <div class="social-bar d-none">
         <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center h-100">
-            <h1 style="font-size: 1em">Thrabe.pt</h1>
+<!--            <h1 style="font-size: 1em">Thrabe.pt</h1>-->
 
             <div class="social-icons">
                 <a href="" target="_blank">
@@ -44,7 +44,7 @@
 
             <div class="d-none d-md-flex">
                 <?php wp_nav_menu(array(
-                    "theme_location" => 'mainMenu',
+                    "theme_location" => "mainMenu",
                 )); ?>
             </div>
 
@@ -52,7 +52,7 @@
         </div>
     </div>
 
-    <div class="modal " id="mobile-menu" tabindex="-1">
+    <div class="modal" id="mobile-menu" tabindex="-1">
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content bg-brand-gray-5">
                 <button class="btn py-3 text-white mb-5 w-100" data-bs-dismiss="modal">

@@ -2,18 +2,21 @@
 get_header();
 ?>
 
-<section class="splide" aria-label="Splide Basic HTML Example">
+<section class="splide" aria-label="carroulsel">
     <div class="splide__track">
         <ul class="splide__list">
             <li class="splide__slide temp slide-1"
                 style="background: url(<?php echo get_theme_file_uri("/build/assets/hero-images/slide_1.png") ?>); background-size: cover; background-position: center center">
                 <div class="container h-100 d-flex align-items-center">
-                    <div class="col-md-4 px-5 px-md-auto">
-                        <p style="font-size: 24px; color: #fff;" class="mb-4">
-                            JACA MELÃO AMORA
-                        </p>
+                    <div class="col-md-6 px-5 px-md-auto">
+                        <h5 class="mb-4 slider-title with-bar">
+                            Texto de impacto 01
+                        </h5>
 
-                        <a href="#contact" class="btn btn-primary">Entre com contato</a>
+                        <p style="color: #fff">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat augue sed velit
+                            accumsan gravida eget vitae libero.</p>
+
+                        <a href="#contact" class="btn btn-tertiary" style="color: #fff">Entre com contato</a>
                     </div>
                 </div>
             </li>
@@ -21,12 +24,15 @@ get_header();
             <li class="splide__slide temp slide-1"
                 style="background: url(<?php echo get_theme_file_uri("/build/assets/hero-images/slide_2.png") ?>); background-size: cover; background-position: center center">
                 <div class="container h-100 d-flex align-items-center">
-                    <div class="col-md-4 offset-md-8 px-5 px-md-auto">
-                        <p style="font-size: 24px; color: #fff;" class="mb-4">
-                            AQUI AINDA NÃ SEI O QUE É
-                        </p>
+                    <div class="col-md-6 offset-md-6 px-5 px-md-auto">
+                        <h5 class="mb-4 slider-title with-bar">
+                            Texto de impacto 02
+                        </h5>
 
-                        <a href="#contact" class="btn btn-primary">Entre com contato</a>
+                        <p style="color: #fff">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat augue sed velit
+                            accumsan gravida eget vitae libero.</p>
+
+                        <a href="#contact" class="btn btn-tertiary" style="color: #fff">Entre com contato</a>
                     </div>
                 </div>
             </li>
@@ -37,18 +43,18 @@ get_header();
 </header>
 
 <main class="h-100">
-<!--    <section class="bg-brand-gray-1 py-5" id="about">-->
-<!--        <div class="container">-->
-<!--            <h2 class="text-center mx-auto">Sobre a Trhabe</h2>-->
-<!---->
-<!--            <div class="div d-md-flex mt-5">-->
-<!---->
-<!--                aqui vem os cards para os serviços e produtos-->
-<!---->
-<!--            </div>-->
-<!---->
-<!--        </div>-->
-<!--    </section>-->
+    <!--    <section class="bg-brand-gray-1 py-5" id="about">-->
+    <!--        <div class="container">-->
+    <!--            <h2 class="text-center mx-auto">Sobre a Trhabe</h2>-->
+    <!---->
+    <!--            <div class="div d-md-flex mt-5">-->
+    <!---->
+    <!--                aqui vem os cards para os serviços e produtos-->
+    <!---->
+    <!--            </div>-->
+    <!---->
+    <!--        </div>-->
+    <!--    </section>-->
 
     <section class="py-5 text-white">
         <div class="container">
@@ -56,53 +62,65 @@ get_header();
 
             <div class="my-5">
                 <div class="p-0 m-0 d-md-flex flex-wrap text-decoration-none">
-<!--                    <a href="--><?php //echo get_permalink(56) ?><!--" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">-->
-<!--                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">-->
-<!--                            <img src="--><?php //echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?><!--" alt="">-->
-<!--                        </div>-->
-<!--                        <h3 class="mt-3 text-center w-75">Direito Trabalhista <br/><span-->
-<!--                                    class="small text-white-50">para empresas</span>-->
-<!--                        </h3>-->
-<!--                    </a>-->
-<!---->
-<!--                    <a href="--><?php //echo get_permalink(56) ?><!--" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">-->
-<!--                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">-->
-<!--                            <img src="--><?php //echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?><!--" alt="">-->
-<!--                        </div>-->
-<!--                        <h3 class="mt-3 text-center w-75">Direito Odontológico <br/><span-->
-<!--                                    class="small text-white-50">para dentistas</span>-->
-<!--                        </h3>-->
-<!--                    </a>-->
-<!--                    <a href="--><?php //echo get_permalink(56) ?><!--" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">-->
-<!--                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">-->
-<!--                            <img src="--><?php //echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?><!--" alt="">-->
-<!--                        </div>-->
-<!--                        <h3 class="mt-3 text-center w-75">Direito Esteticista <br/><span-->
-<!--                                    class="small text-white-50">para profissionais</span>-->
-<!--                        </h3>-->
-<!--                    </a>-->
-<!--                    <a href="--><?php //echo get_permalink(56) ?><!--" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">-->
-<!--                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">-->
-<!--                            <img src="--><?php //echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?><!--" alt="">-->
-<!--                        </div>-->
-<!--                        <h3 class="mt-3 text-center w-75">Direito laboratorial</h3>-->
-<!--                    </a>-->
-<!--                    <a href="--><?php //echo get_permalink(56) ?><!--" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">-->
-<!--                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">-->
-<!--                            <img src="--><?php //echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?><!--" alt="">-->
-<!--                        </div>-->
-<!--                        <h3 class="mt-3 text-center w-75">Direito Médico<br/>-->
-<!--                            <span class="small text-white-50">para médicos</span>-->
-<!--                        </h3>-->
-<!--                    </a>-->
-<!--                    <a href="--><?php //echo get_permalink(56) ?><!--" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">-->
-<!--                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">-->
-<!--                            <img src="--><?php //echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?><!--" alt="">-->
-<!--                        </div>-->
-<!--                        <h3 class="mt-3 text-center w-75">Atuação em tribunais<br/><span-->
-<!--                                    class="small text-white-50">Direito geral</span>-->
-<!--                        </h3>-->
-<!--                    </a>-->
+                    <!--                    <a href="-->
+                    <?php //echo get_permalink(56) ?><!--" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">-->
+                    <!--                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">-->
+                    <!--                            <img src="-->
+                    <?php //echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?><!--" alt="">-->
+                    <!--                        </div>-->
+                    <!--                        <h3 class="mt-3 text-center w-75">Direito Trabalhista <br/><span-->
+                    <!--                                    class="small text-white-50">para empresas</span>-->
+                    <!--                        </h3>-->
+                    <!--                    </a>-->
+                    <!---->
+                    <!--                    <a href="-->
+                    <?php //echo get_permalink(56) ?><!--" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">-->
+                    <!--                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">-->
+                    <!--                            <img src="-->
+                    <?php //echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?><!--" alt="">-->
+                    <!--                        </div>-->
+                    <!--                        <h3 class="mt-3 text-center w-75">Direito Odontológico <br/><span-->
+                    <!--                                    class="small text-white-50">para dentistas</span>-->
+                    <!--                        </h3>-->
+                    <!--                    </a>-->
+                    <!--                    <a href="-->
+                    <?php //echo get_permalink(56) ?><!--" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">-->
+                    <!--                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">-->
+                    <!--                            <img src="-->
+                    <?php //echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?><!--" alt="">-->
+                    <!--                        </div>-->
+                    <!--                        <h3 class="mt-3 text-center w-75">Direito Esteticista <br/><span-->
+                    <!--                                    class="small text-white-50">para profissionais</span>-->
+                    <!--                        </h3>-->
+                    <!--                    </a>-->
+                    <!--                    <a href="-->
+                    <?php //echo get_permalink(56) ?><!--" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">-->
+                    <!--                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">-->
+                    <!--                            <img src="-->
+                    <?php //echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?><!--" alt="">-->
+                    <!--                        </div>-->
+                    <!--                        <h3 class="mt-3 text-center w-75">Direito laboratorial</h3>-->
+                    <!--                    </a>-->
+                    <!--                    <a href="-->
+                    <?php //echo get_permalink(56) ?><!--" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">-->
+                    <!--                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">-->
+                    <!--                            <img src="-->
+                    <?php //echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?><!--" alt="">-->
+                    <!--                        </div>-->
+                    <!--                        <h3 class="mt-3 text-center w-75">Direito Médico<br/>-->
+                    <!--                            <span class="small text-white-50">para médicos</span>-->
+                    <!--                        </h3>-->
+                    <!--                    </a>-->
+                    <!--                    <a href="-->
+                    <?php //echo get_permalink(56) ?><!--" class="text-decoration-none col-md-4 d-flex flex-column align-items-center mt-5">-->
+                    <!--                        <div style="width: 204px; height: 204px; overflow: hidden; display: flex; justify-content: center; align-items: center">-->
+                    <!--                            <img src="-->
+                    <?php //echo get_theme_file_uri("/build/assets/areas/direto_geral.png") ?><!--" alt="">-->
+                    <!--                        </div>-->
+                    <!--                        <h3 class="mt-3 text-center w-75">Atuação em tribunais<br/><span-->
+                    <!--                                    class="small text-white-50">Direito geral</span>-->
+                    <!--                        </h3>-->
+                    <!--                    </a>-->
 
                 </div>
             </div>

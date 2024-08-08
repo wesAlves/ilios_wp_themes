@@ -2,7 +2,7 @@
 
 
 .social-bar {
-  background: $brand-gray-1;
+  background: $primary;
   height: auto;
   padding: 1em 1em;
 
@@ -14,8 +14,8 @@
 
   }
 
-  @include media-breakpoint-up(md){
-  height: 48px;
+  @include media-breakpoint-up(md) {
+    height: 48px;
 
   }
 
@@ -30,7 +30,7 @@
   & > a {
     color: $brand-gray-5;
 
-    &:hover{
+    &:hover {
       filter: brightness(200%);
     }
   }

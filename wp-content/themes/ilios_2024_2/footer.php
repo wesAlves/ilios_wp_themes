@@ -1,5 +1,4 @@
 <footer>
-
     <section class="py-5 text-white" id="contact">
         <div class="container">
             <h2 class="text-center mx-auto">Contatos e localização</h2>
@@ -86,7 +85,7 @@
                 <img style="max-width:240px" class="my-2" src="<?php echo get_theme_file_uri("/build/assets/logos/logo_pb.png") ?>">
             </div>
 
-            <div class="social-icons">
+            <div class="social-icons d-none">
                 <a href="" target="_blank">
                     <i class="fa-brands fa-linkedin-in"></i>
                 </a>

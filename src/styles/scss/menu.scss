@@ -14,9 +14,10 @@
 
   &-bar {
     height: 102px;
-    background: $brand-gray-5;
+    background: $primary;
     color: white;
     font-size: 12px;
+    border-bottom: 4px solid $tertiary;
 
     &-stick{
       @extend .menu-bar;
@@ -29,8 +30,9 @@
 
     &-footer {
       height: 96px;
-      background: $brand-gray-1;
+      background: $primary;
       color: $brand-gray-5;
+      border-top: 4px solid $tertiary;
     }
   }
 

@@ -1,26 +1,33 @@
 @import "variables";
 
-.temp{
+.temp {
   height: 473px;
   background: $brand-gray-1;
 }
 
-.slide{
-  &-1{
+.slide {
+  &-1 {
     //background: url("/wp-content/themes/ilios_2024_2/build/assets/hero-images/slide_1.png");
     background-size: cover;
     background-position: center center;
   }
 
-  &-2{
+  &-2 {
     //background: url("/wp-content/themes/ilios_2024_2/build/assets/hero-images/slide_2.png");
     background-size: cover;
     background-position: center center;
   }
 
-  &-3{
+  &-3 {
     //background: url("/wp-content/themes/ilios_2024_2/build/assets/hero-images/slide_3.png");
     background-size: cover;
     background-position: center center;
+  }
+
+  &-title {
+    font-family: "Inter Semi Bold", sans-serif;
+    font-weight: $font-weight-medium;
+    font-size: 3.5em;
+    color: white;
   }
 }

@@ -8,7 +8,7 @@
 
 
 html {
-  //font-size: 24px;
+  font-family: "Inter", sans-serif
 }
 
 body {
@@ -30,21 +30,12 @@ h {
     width: fit-content;
     font-size: 2em;
 
-    padding-left: 2em;
-    padding-right: 2em;
     padding-bottom: 16px;
-    margin-bottom: 48px;
-
-
-    &5 {
-    }
-
+    margin-bottom: 24px;
   }
 }
-.slider-title {
-  font-size: 3.5em;
-  color: white;
-}
+
+
 .with-bar {
   &::after {
     content: "";

@@ -1,11 +1,19 @@
 @import "variables";
 
-.bg-divider{
+$barHeight: 450px;
+
+.bg-divider {
   background: $primary;
   color: white;
-  border-top: 4px solid $tertiary;
+  border-top: 4px solid #71A830;
+  height: $barHeight;
+  width: 100%;
+  //margin-top: $barHeight*0.16;
+}
 
-  position: absolute;
-  height: 30%;
-  z-index: -1;
+#contact {
+  margin-bottom: 2em;
+  @include media-breakpoint-up(md) {
+    margin-bottom: -50%;
+  }
 }

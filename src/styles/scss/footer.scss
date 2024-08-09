@@ -1,0 +1,11 @@
+@import "variables";
+
+.bg-divider{
+  background: $primary;
+  color: white;
+  border-top: 4px solid $tertiary;
+
+  position: absolute;
+  height: 30%;
+  z-index: -1;
+}

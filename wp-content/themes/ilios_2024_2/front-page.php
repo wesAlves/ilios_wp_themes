@@ -121,60 +121,7 @@ get_header();
         </div>
     </section>
 
-    <!--BLOG WHEN AVALIABLE UNCOMMENT THAT-->
-    <!--    --><?php
-    //
-    //    $posts = get_posts(array(
-    //        "numberposts" => 3
-    //    ));
-    //    $counter = 0;
-    //
-    //    if (count($posts)) {
-    //
-    //        ?>
-    <!---->
-    <!--        <section class="py-5 text-white">-->
-    <!--            <div class="container">-->
-    <!--                <h2 class="text-center mx-auto">Confira nosso blog</h2>-->
-    <!---->
-    <!--                <div class="d-md-flex mt-5 gap-3">-->
-    <!---->
-    <!---->
-    <!--                    --><?php
-    //                    while ($counter < count($posts)) {
-    //                        the_post();
-    //                        ?>
-    <!---->
-    <!--                        <a href="--><?php //the_permalink(); ?><!--" class="col-md-4 card mt-5 mt-md-0 ">-->
-    <!---->
-    <!--                            <div class=" w-100" alt="...">-->
-    <!--                                <img src="--><?php //the_post_thumbnail_url("large"); ?><!--"-->
-    <!--                                     alt="feature" class="w-100">-->
-    <!--                            </div>-->
-    <!---->
-    <!--                            <div class="card-body">-->
-    <!--                                <h5 class="card-title">--><?php //the_title(); ?><!--</h5>-->
-    <!--                                <p class="card-text">-->
-    <!--                                    --><?php //the_excerpt(); ?>
-    <!--                                </p>-->
-    <!---->
-    <!--                            </div>-->
-    <!--                            <!--                            </div>-->-->
-    <!--                        </a>-->
-    <!---->
-    <!--                        --><?php
-    //                        $counter++;
-    //                    }
-    //                    ?>
-    <!---->
-    <!--                </div>-->
-    <!---->
-    <!--            </div>-->
-    <!--        </section>-->
-    <!---->
-    <!--    --><?php //} ?>
-
-</main>
+    </main>
 
 <?php
 get_footer();

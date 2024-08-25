@@ -5,13 +5,12 @@
                 <div class="col-md-6 py-5">
                     <div>
                         <h2 class="text-left with-bar">Morada</h2>
-                        <p>Rua da república - 0000-000</p>
+                        <p>Lisboa-Portugal</p>
 
-                        <p>Celular / WhatsApp: +351 999 999 999</p>
+                        <p>Telemóvel e WhatsApp: +351 937 257 708 ou +351 935 862 921</p>
 
-                        <p>Fone: 2222-2222</p>
-
-                        <p>E-mail: comercial@thrabe.pt</p>
+                        <p>E-mail: <a href="mailto:
+                        comercial@thrabe.pt">comercial@thrabe.pt</a></p>
 
                         <p>De Segunda a Sexta-feira das 10:00 as 17:00</p>
                     </div>

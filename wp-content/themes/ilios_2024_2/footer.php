@@ -78,15 +78,20 @@
                         </div>
 
                         <div class="d-none d-md-flex">
-                            <?php
-                            wp_nav_menu(array(
-                                "theme_location" => "bottomMenu",
-                                "menu_class" => "menu-footer"
-                            ))
-                            ?>
+							<?php
+							wp_nav_menu(array(
+								"theme_location" => "bottomMenu",
+								"menu_class" => "menu-footer"
+							))
+							?>
                         </div>
-
                     </div>
+
+                    <p class="px-md-3">
+                        Na Thrabe, somos especialistas em fornecer uma ampla gama de peças e componentes essenciais para a manutenção de tratores, máquinas agrícolas e equipamentos industriais. Com um compromisso sólido com a qualidade e a satisfação do cliente, oferecemos soluções que garantem a máxima eficiência e durabilidade dos seus equipamentos.
+                    </p>
+
+
                 </div>
             </div>
         </div>

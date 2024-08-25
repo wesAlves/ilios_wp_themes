@@ -135,11 +135,9 @@ get_header();
                         <img src='<?php echo get_theme_file_uri("/build/assets/placeholder_430_242.png") ?>' alt=""
                              class="card-img-top">
                         <div class="card-body">
-                            <h3 class="card-title fw-bold">Nome do item ofertado em destaque</h3>
+                            <h3 class="card-title fw-bold">Rolamentos diversos</h3>
                             <p class="card-text">
-                                Descrição do produto e com algum conteúdo relevante ao que o produto pode ser
-                                relacionado ou
-                                para o que serve.
+                                Rolamentos de esferas, cônicos, de agulha, de roletes e de super precisão para diversas aplicações, garantindo operação suave e segura.
                             </p>
                         </div>
                     </div>
@@ -148,11 +146,9 @@ get_header();
                         <img src='<?php echo get_theme_file_uri("/build/assets/placeholder_430_242.png") ?>' alt=""
                              class="card-img-top">
                         <div class="card-body">
-                            <h3 class="card-title fw-bold">Nome do item ofertado em destaque</h3>
+                            <h3 class="card-title fw-bold">Filtros Diversos</h3>
                             <p class="card-text">
-                                Descrição do produto e com algum conteúdo relevante ao que o produto pode ser
-                                relacionado ou
-                                para o que serve.
+                                Filtros de alta eficiência para todos os tipos de motores e sistemas, mantendo os equipamentos limpos e funcionando no seu melhor.
                             </p>
                         </div>
                     </div>
@@ -161,11 +157,10 @@ get_header();
                         <img src='<?php echo get_theme_file_uri("/build/assets/placeholder_430_242.png") ?>' alt=""
                              class="card-img-top">
                         <div class="card-body">
-                            <h3 class="card-title fw-bold">Nome do item ofertado em destaque</h3>
+                            <h3 class="card-title fw-bold">FPS</h3>
                             <p class="card-text">
-                                Descrição do produto e com algum conteúdo relevante ao que o produto pode ser
-                                relacionado ou
-                                para o que serve.
+                                Ferramentas de penetração de solo protegem componentes, reduz os custos de operação e maximiza a performance do equipamento.
+                                O componente mais importante de uma máquina pesada são suas ferramentas de trabalho, a FPS tem um efeito direto nela.
                             </p>
                         </div>
                     </div>

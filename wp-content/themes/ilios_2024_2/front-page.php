@@ -36,7 +36,7 @@ get_header();
             </li>
 
             <li class="splide__slide temp slide-3"
-                style="background: url(<?php echo get_theme_file_uri("/build/assets/hero-images/slide_2.png") ?>); background-size: cover; background-position: center center">
+                style="background: url(<?php echo get_theme_file_uri("/build/assets/hero-images/slide_3.png") ?>); background-size: cover; background-position: center center">
                 <div class="container h-100 d-flex align-items-center">
                     <div class="col-md-8 px-5 px-md-auto">
                         <h5 class="mb-4 slide-title with-bar">Suas operações em pleno funcionamento.
@@ -63,7 +63,7 @@ get_header();
 
                 <!--                TODO: make a loop here and a custom post type-->
                 <div class="card" style="max-width: 345px">
-                    <img src='<?php echo get_theme_file_uri("/build/assets/placeholder_430_242.png") ?>' alt=""
+                    <img src='<?php echo get_theme_file_uri("/build/assets/products/rolamentos.jpeg") ?>' alt=""
                          class="card-img-top">
                     <div class="card-body">
                         <h3 class="card-title fw-bold">Rolamentos diversos</h3>
@@ -74,7 +74,7 @@ get_header();
                 </div>
 
                 <div class="card" style="max-width: 345px">
-                    <img src='<?php echo get_theme_file_uri("/build/assets/placeholder_430_242.png") ?>' alt=""
+                    <img src='<?php echo get_theme_file_uri("/build/assets/products/filtros.jpeg") ?>' alt=""
                          class="card-img-top">
                     <div class="card-body">
                         <h3 class="card-title fw-bold">Filtros Diversos</h3>
@@ -85,7 +85,7 @@ get_header();
                 </div>
 
                 <div class="card" style="max-width: 345px">
-                    <img src='<?php echo get_theme_file_uri("/build/assets/placeholder_430_242.png") ?>' alt=""
+                    <img src='<?php echo get_theme_file_uri("/build/assets/products/fps.jpeg") ?>' alt=""
                          class="card-img-top">
                     <div class="card-body">
                         <h3 class="card-title fw-bold">FPS</h3>
@@ -129,7 +129,7 @@ get_header();
 
                     <!--                TODO: make a loop here and a custom post type-->
                     <div class="card" style="max-width: 345px">
-                        <img src='<?php echo get_theme_file_uri("/build/assets/placeholder_430_242.png") ?>' alt=""
+                        <img src='<?php echo get_theme_file_uri("/build/assets/products/rolamentos.jpeg") ?>' alt=""
                              class="card-img-top">
                         <div class="card-body">
                             <h3 class="card-title fw-bold">Rolamentos diversos</h3>
@@ -140,7 +140,7 @@ get_header();
                     </div>
 
                     <div class="card" style="max-width: 345px">
-                        <img src='<?php echo get_theme_file_uri("/build/assets/placeholder_430_242.png") ?>' alt=""
+                        <img src='<?php echo get_theme_file_uri("/build/assets/products/filtros.jpeg") ?>' alt=""
                              class="card-img-top">
                         <div class="card-body">
                             <h3 class="card-title fw-bold">Filtros Diversos</h3>
@@ -151,7 +151,7 @@ get_header();
                     </div>
 
                     <div class="card" style="max-width: 345px">
-                        <img src='<?php echo get_theme_file_uri("/build/assets/placeholder_430_242.png") ?>' alt=""
+                        <img src='<?php echo get_theme_file_uri("/build/assets/products/fps.jpeg") ?>' alt=""
                              class="card-img-top">
                         <div class="card-body">
                             <h3 class="card-title fw-bold">FPS</h3>

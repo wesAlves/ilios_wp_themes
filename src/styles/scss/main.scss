@@ -36,6 +36,6 @@ h {
     margin-bottom: 48px;
 
     border-bottom: solid 2px;
-    border-image: linear-gradient(to left, $brand-yellow-5, $brand-yellow-1, $brand-yellow-5) 20;
+    border-color: $primary;
   }
 }

@@ -6,7 +6,7 @@ module.exports = {
     entry: './src/js/index.js',
     output: {
         filename: "main.js",
-        path: path.resolve(__dirname, "wp-content/themes/ilios_2024_2/build"),
+        path: path.resolve(__dirname, "wp-content/themes/brew_gestalcoa_2025/build"),
     },
     module: {
         rules: [

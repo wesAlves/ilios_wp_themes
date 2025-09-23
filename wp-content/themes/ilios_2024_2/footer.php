@@ -83,7 +83,7 @@
     <div class="menu-bar-footer">
         <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center h-100">
             <div>
-                <img style="max-width:240px" class="my-2" src="<?php echo get_theme_file_uri("/build/assets/logos/logo_pb.png") ?>">
+                <img style="max-width:240px" class="my-2" src="<?php echo get_theme_file_uri("/build/assets/logos/logo_white_2.svg") ?>">
             </div>
 
             <div class="social-icons">

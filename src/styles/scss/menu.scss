@@ -14,7 +14,7 @@
 
   &-bar {
     height: 102px;
-    background: $brand-gray-5;
+    background: $secondary;
     color: white;
     font-size: 12px;
 
@@ -30,7 +30,7 @@
     &-footer {
       height: 96px;
       background: $brand-gray-1;
-      color: $brand-gray-5;
+      color: $secondary;
     }
   }
 
@@ -65,15 +65,15 @@
       }
 
       &[aria-current] {
-        background: $primary;
-        color: $brand-gray-5;
+        background: $secondary;
+        color: $brand-gray-1;
 
         @include media-breakpoint-up(md) {
           background: none;
           color: $primary;
 
-          border-left-color: $brand-yellow-1;
-          border-right-color: $brand-yellow-1;
+          border-left-color: $primary;
+          border-right-color: $primary;
         }
       }
     }

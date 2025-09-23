@@ -2,25 +2,48 @@
 
 .temp{
   height: 473px;
-  background: $brand-yellow-1;
+  background: $brand-blue-1;
 }
 
 .slide{
   &-1{
-    //background: url("/wp-content/themes/ilios_2024_2/build/assets/hero-images/slide_1.png");
+    //background: url("/wp-content/themes/brew_gestalcoa_2025/build/assets/hero-images/hero_1.png");
     background-size: cover;
     background-position: center center;
+    position: relative
   }
 
   &-2{
-    //background: url("/wp-content/themes/ilios_2024_2/build/assets/hero-images/slide_2.png");
+    //background: url("/wp-content/themes/brew_gestalcoa_2025/build/assets/hero-images/hero_2.png");
     background-size: cover;
     background-position: center center;
+    position: relative
   }
 
   &-3{
-    //background: url("/wp-content/themes/ilios_2024_2/build/assets/hero-images/slide_3.png");
+    //background: url("/wp-content/themes/brew_gestalcoa_2025/build/assets/hero-images/hero_3.png");
     background-size: cover;
     background-position: center center;
+    position: relative
   }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  //background-color: rgba(255, 255, 255, 0.2); /* Branco (#2CBC63) com 20% de opacidade */
+  z-index: 1;
+}
+
+.slide-content {
+  position: relative;
+  z-index: 2;
+  color: $secondary;
+  padding: 20px;
+  text-align: left;
+  border-radius:8px;
+  background-color: rgba(225, 225, 225, 0.8);
 }
